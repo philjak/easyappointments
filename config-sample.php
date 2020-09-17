@@ -52,6 +52,18 @@ class Config {
     const GOOGLE_CLIENT_ID      = '';
     const GOOGLE_CLIENT_SECRET  = '';
     const GOOGLE_API_KEY        = '';
+
+    // ------------------------------------------------------------------------
+    // MAIL SETTINGS
+    // ------------------------------------------------------------------------
+
+    const MAIL_PROTOCOL     = 'mail'; // or smtp
+    const MAIL_MAILTYPE     = 'text'; // or html
+    const MAIL_SMTP_HOST    = '';
+    const MAIL_SMTP_USER    = '';
+    const MAIL_SMTP_PASS    = '';
+    const MAIL_SMTP_CRYPTO  = 'ssl'; // or tls
+    const MAIL_SMTP_PORT    = '25';
 }
 
 /* End of file config.php */
