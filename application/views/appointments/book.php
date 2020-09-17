@@ -376,14 +376,6 @@
 
             <div id="frame-footer">
                 <small>
-                    Powered By
-
-                    <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
-
-                    <span id="select-language" class="badge badge-success">
-    		        	<?= ucfirst(config('language')) ?>
-    		        </span>
-
                     <a href="<?= site_url('backend'); ?>">
                         <?= $this->session->user_id ? lang('backend_section') : lang('login') ?>
                     </a>
